@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">6-DashBoard</string>
+    <string name="app_calculator">Calculadora</string>
+    <string name="app_amigos">Amigos</string>
+    <string name="app_edadCanina">Edad canina</string>
+    <string name="app_quizzes">Quizzes</string>
+    <string name="app_gallery">Galería</string>
+    <string name="app_maps">Mapas</string>
+    <string name="app_restaurants">Restaurantes</string>
+    <string name="app_settings">Herramientas</string>
+</resources>
