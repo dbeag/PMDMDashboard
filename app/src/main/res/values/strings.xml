@@ -8,4 +8,9 @@
     <string name="app_maps">Mapas</string>
     <string name="app_restaurants">Restaurantes</string>
     <string name="app_settings">Herramientas</string>
+    <string name="app_hint">Introduce tu edad</string>
+    <string name="app_btnCalculate">Calcular</string>
+    <string name="app_question">¿Cuántos años tienes?</string>
+    <string name="app_textResult">Si fueras perro, tu edad sería %d años</string>
+    <string name="app_toast">Has introducido un campo vacío</string>
 </resources>

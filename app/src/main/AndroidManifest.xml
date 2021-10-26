@@ -12,35 +12,35 @@
         <activity
             android:name=".activities.Settings_activity"
             android:exported="true"
-            android:theme="@style/Theme.Settings"/>
+            android:theme="@style/Theme.Settings" />
         <activity
             android:name=".activities.Restaurantes_activity"
             android:exported="true"
-            android:theme="@style/Theme.Restaurantes"/>
+            android:theme="@style/Theme.Restaurantes" />
         <activity
             android:name=".activities.Mapas_activity"
             android:exported="true"
-            android:theme="@style/Theme.Mapas"/>
+            android:theme="@style/Theme.Mapas" />
         <activity
             android:name=".activities.Galeria_activity"
             android:exported="true"
-            android:theme="@style/Theme.Galeria"/>
+            android:theme="@style/Theme.Galeria" />
         <activity
             android:name=".activities.Quizzes_activity"
-            android:theme="@style/Theme.Quizzes"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.Quizzes" />
         <activity
             android:name=".activities.Edad_activity"
             android:exported="true"
-            android:theme="@style/Theme.Edad"/>
+            android:theme="@style/Theme.Edad" />
         <activity
             android:name=".activities.Amigos_activity"
-            android:theme="@style/Theme.Amigos"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.Amigos" />
         <activity
             android:name=".activities.Calculadora_activity"
-            android:theme="@style/Theme.Calculadora"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.Calculadora" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
