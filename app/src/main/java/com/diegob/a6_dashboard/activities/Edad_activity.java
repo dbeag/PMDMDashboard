@@ -30,12 +30,12 @@ public class Edad_activity extends AppCompatActivity {
 
                 int resultado = edadint * 7;
 
-                String resultadoFinal = getString(R.string.app_textResult, resultado);
+                String resultadoFinal = getString(R.string.app_textResultEdad, resultado);
 
                 resultadoText.setText(resultadoFinal);
             } else{
                 Log.v("MainActivity", "Has introducido un campo vacío");
-                Toast.makeText(this, getString(R.string.app_toast), Toast.LENGTH_LONG).show();
+                Toast.makeText(this, getString(R.string.app_toastEdad), Toast.LENGTH_LONG).show();
             }
         });
     }

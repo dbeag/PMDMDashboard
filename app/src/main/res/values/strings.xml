@@ -11,6 +11,20 @@
     <string name="app_hint">Introduce tu edad</string>
     <string name="app_btnCalculate">Calcular</string>
     <string name="app_question">¿Cuántos años tienes?</string>
-    <string name="app_textResult">Si fueras perro, tu edad sería %d años</string>
-    <string name="app_toast">Has introducido un campo vacío</string>
+    <string name="app_textResultEdad">Si fueras perro, tu edad sería %d años</string>
+    <string name="app_toastEdad">Has introducido un campo vacío</string>
+    <string name="app_initialText">Bienvenidos a mi APP calculadora</string>
+
+    <string name="app_firstNumber">Introduzca el primer número:</string>
+    <string name="app_secondNumber">Introduzca el segundo número:</string>
+    <string name="app_hintFirstNumber">Número 1</string>
+    <string name="app_hintSecondNumber">Número 2</string>
+    <string name="app_add">Sumar</string>
+    <string name="app_subtract">Restar</string>
+    <string name="app_multiply">Mult</string>
+    <string name="app_divide">Dividir</string>
+    <string name="app_textResultCalculator">El resultado de la operación es:</string>
+
+    <string name="app_toastCalculator">Tiene que insertar números</string>
+    <string name="app_divideToast">No puedes dividir por 0</string>
 </resources>
