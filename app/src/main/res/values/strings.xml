@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">6-DashBoard</string>
+    <string name="app_name">Practica 4 - DashBoard</string>
     <string name="app_calculator">Calculadora</string>
     <string name="app_amigos">Amigos</string>
     <string name="app_edadCanina">Edad canina</string>
@@ -10,7 +10,7 @@
     <string name="app_settings">Herramientas</string>
     <string name="app_hint">Introduce tu edad</string>
     <string name="app_btnCalculate">Calcular</string>
-    <string name="app_question">¿Cuántos años tienes?</string>
+    <string name="app_questionEdad">¿Cuántos años tienes?</string>
     <string name="app_textResultEdad">Si fueras perro, tu edad sería %d años</string>
     <string name="app_toastEdad">Has introducido un campo vacío</string>
     <string name="app_initialText">Bienvenidos a mi APP calculadora</string>
@@ -27,4 +27,14 @@
 
     <string name="app_toastCalculator">Tiene que insertar números</string>
     <string name="app_divideToast">No puedes dividir por 0</string>
+
+    <string name="app_questionQuizzes">¿Qué valor de \"y\" es la solución a la ecuación?</string>
+    <string name="app_send">Enviar</string>
+    <string name="app_incorrectbutton">Volver a intentarlo</string>
+    <string name="app_incorrectText">Incorrecto, vuelve a intentarlo</string>
+    <string name="app_correct2button">Volver a empezar</string>
+    <string name="app_correct2text">¡Correcto, ya has terminado!</string>
+    <string name="app_correct1button">Continuar</string>
+    <string name="app_correct1text">¡Correcto!</string>
+    <string name="app_option">Debes seleccionar una opción</string>
 </resources>

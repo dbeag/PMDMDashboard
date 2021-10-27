@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Practice 4 - DashBoard</string>
+    <string name="app_calculator">Calculator</string>
+    <string name="app_amigos">Friends</string>
+    <string name="app_edadCanina">canine age</string>
+    <string name="app_quizzes">Quizzes</string>
+    <string name="app_gallery">Gallery</string>
+    <string name="app_maps">Maps</string>
+    <string name="app_restaurants">Restaurants</string>
+    <string name="app_settings">Settings</string>
+    <string name="app_hint">Write your age</string>
+    <string name="app_btnCalculate">Calculate</string>
+    <string name="app_questionEdad">How old are you?</string>
+    <string name="app_textResultEdad">If you were a dog, your age would be 5 years</string>
+    <string name="app_toastEdad">You have entered an empty field</string>
+    <string name="app_initialText">Welcome to my APP calculator</string>
+
+    <string name="app_firstNumber">Write the first number:</string>
+    <string name="app_secondNumber">Write the second number:</string>
+    <string name="app_hintFirstNumber">Number 1</string>
+    <string name="app_hintSecondNumber">Number 2</string>
+    <string name="app_add">Add</string>
+    <string name="app_subtract">Substract</string>
+    <string name="app_multiply">Mult</string>
+    <string name="app_divide">Divide</string>
+    <string name="app_textResultCalculator">The result of the operation is:</string>
+
+    <string name="app_toastCalculator">You have to insert numbers</string>
+    <string name="app_divideToast">You can´t divide by 0</string>
+
+    <string name="app_questionQuizzes">What value of "y" is a solution to this equation?</string>
+    <string name="app_send">Send</string>
+    <string name="app_incorrectbutton">Try again</string>
+    <string name="app_incorrectText">Incorrect, try again</string>
+    <string name="app_correct2button">Start over</string>
+    <string name="app_correct2text">¡Correct, you are done!</string>
+    <string name="app_correct1button">Continue</string>
+    <string name="app_correct1text">¡Correct!</string>
+    <string name="app_option">You must select an option</string>
+</resources>
