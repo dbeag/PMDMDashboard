@@ -26,5 +26,9 @@
     <color name="violet">#D65AEE</color>
     <color name="violet_dark">#b33ec9</color>
     <color name="gray">#5ED1C6C5</color>
+    <color name="orange">#FF5733</color>
+    <color name="orange_dark">#C13113</color>
+    <color name="brown">#6A1E0E</color>
+    <color name="brown_dark">#48150A</color>
 
 </resources>

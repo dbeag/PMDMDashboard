@@ -37,4 +37,5 @@
     <string name="app_correct1button">Continue</string>
     <string name="app_correct1text">¡Correct!</string>
     <string name="app_option">You must select an option</string>
+    <string name="app_music">Music</string>
 </resources>
