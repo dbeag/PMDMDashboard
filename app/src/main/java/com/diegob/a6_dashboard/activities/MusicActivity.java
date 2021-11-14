@@ -44,12 +44,13 @@ public class MusicActivity extends AppCompatActivity {
         lstDisco.add(new Disco("Azulejos de corales", "Dellafuente", 2015, R.drawable.discoazulejosdecorales));
         lstDisco.add(new Disco("Descanso en poder", "Dellafuente", 2020, R.drawable.discodescansoenpoder));
         lstDisco.add(new Disco("Descartes", "Dellafuente", 2015, R.drawable.discodescartes));
+        lstDisco.add(new Disco("Recopilatorio 1", "Dellafuente", 2018, R.drawable.discorecopilatorio));
         lstDisco.add(new Disco("La bestia del mambo", "Cecilio G", 2020, R.drawable.discolabestiadelmambo));
         lstDisco.add(new Disco("adromicfms 4", "Yung Beef", 2018, R.drawable.discoadromicfms4));
         lstDisco.add(new Disco("El plugg mixtape", "Yung Beef", 2016, R.drawable.discoelpluggmixtape));
         lstDisco.add(new Disco("Avida dollars", "C tangana", 2018, R.drawable.discoavidadollars));
         lstDisco.add(new Disco("Ídolo", "C tangana", 2017, R.drawable.discoidolo));
-
+        lstDisco.add(new Disco("Makanudo", "Maka", 2015, R.drawable.discomakanudo));
 
         adaptador = new AdaptadorDisco(lstDisco, this);
         lstItems.setAdapter(adaptador);
