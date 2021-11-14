@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Practica 4 - DashBoard</string>
+    <string name="app_name">DashBoard</string>
     <string name="app_calculator">Calculadora</string>
     <string name="app_amigos">Amigos</string>
     <string name="app_edadCanina">Edad canina</string>

@@ -11,13 +11,14 @@ import com.diegob.a6_dashboard.activities.Calculadora_activity;
 import com.diegob.a6_dashboard.activities.Edad_activity;
 import com.diegob.a6_dashboard.activities.Galeria_activity;
 import com.diegob.a6_dashboard.activities.Mapas_activity;
+import com.diegob.a6_dashboard.activities.MusicActivity;
 import com.diegob.a6_dashboard.activities.Quizzes_activity;
 import com.diegob.a6_dashboard.activities.Restaurantes_activity;
 import com.diegob.a6_dashboard.activities.Settings_activity;
 
 public class MainActivity extends AppCompatActivity {
 
-    RelativeLayout rellay_calculator, rellay_friends, rellay_dog, rellay_quizzes, rellay_gallery, rellay_maps, rellay_restaurant, rellay_settings;
+    RelativeLayout rellay_calculator, rellay_friends, rellay_dog, rellay_quizzes, rellay_gallery, rellay_maps, rellay_restaurant, rellay_settings, rellay_music;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         rellay_gallery      = findViewById(R.id.rellay_gallery);
         rellay_restaurant   = findViewById(R.id.rellay_restaurants);
         rellay_settings     = findViewById(R.id.rellay_settings);
+        rellay_music        = findViewById(R.id.rellay_music);
 
         rellay_calculator.setOnClickListener(view -> {
             Intent i = new Intent(this, Calculadora_activity.class);
@@ -67,6 +69,11 @@ public class MainActivity extends AppCompatActivity {
 
         rellay_settings.setOnClickListener(view -> {
             Intent i = new Intent(this, Settings_activity.class);
+            startActivity(i);
+        });
+
+        rellay_music.setOnClickListener(view -> {
+            Intent i = new Intent(this, MusicActivity.class);
             startActivity(i);
         });
     }

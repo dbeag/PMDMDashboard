@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.6DashBoard">
         <activity
+            android:name=".activities.DetalleActivityDisco"
+            android:exported="false" />
+        <activity
             android:name=".activities.MusicActivity"
             android:exported="true" />
         <activity
@@ -62,7 +65,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 
 </manifest>

@@ -1,39 +1,34 @@
 package com.diegob.a6_dashboard.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Disco {
+public class Disco implements Serializable {
     private String nombre;
     private String artista;
-    private String imageUrl;
+    private Integer lanzamiento;
+    private int image;
 
-    public Disco(String nombre, String artista, String imageUrl) {
+    public Disco(String nombre, String artista, int lanzamiento, int image) {
         this.nombre = nombre;
         this.artista = artista;
-        this.imageUrl = imageUrl;
+        this.lanzamiento = lanzamiento;
+        this.image = image;
     }
 
     public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
     public String getArtista() {
         return artista;
     }
 
-    public void setArtista(String artista) {
-        this.artista = artista;
+    public Integer getLanzamiento() {
+        return lanzamiento;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
-    }
-
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+    public int getImage() {
+        return image;
     }
 }
