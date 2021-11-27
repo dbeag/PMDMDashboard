@@ -38,4 +38,6 @@
     <string name="app_correct1text">¡Correcto!</string>
     <string name="app_option">Debes seleccionar una opción</string>
     <string name="app_music">Música</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_mapas">Mapas_activity</string>
 </resources>
